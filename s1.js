@@ -1,4 +1,6 @@
-document.write(`<h1 class="has-text-centered">The Elephant Rope</h1>
+let container = document.getElementById("cnt");
+let content = document.createElement("div");
+content.innerHTML = `<h1 class="has-text-centered">The Elephant Rope</h1>
 <br />
 <p>As a man was passing the elephants, he suddenly stopped, confused by the fact that these huge creatures were being
     held by only a small rope tied to their front leg. No chains, no cages. It was obvious that the elephants could, at
@@ -11,4 +13,5 @@ document.write(`<h1 class="has-text-centered">The Elephant Rope</h1>
     but because they believed they couldn’t, they were stuck right where they were. </p>
 <p>Like the elephants, how many of us go through life hanging onto a belief that we cannot do something, simply because
     we failed at it once before?
-    Failure is part of learning; we should never give up the struggle in life.</p>`);
+    Failure is part of learning; we should never give up the struggle in life.</p>`;
+container.appendChild(content); 
