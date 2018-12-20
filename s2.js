@@ -1,6 +1,6 @@
 let container = document.getElementById("cnt");
 let content = document.createElement("div");
-content.innerHTML =`<h1 class="has-text-centered">The Elephant Rope</h1>
+content.innerHTML =`<h1 class="has-text-centered">Don’t judge Quickly</h1>
 <br />
 <p> A 24 year old boy seeing out from the train’s window shouted… “Dad, look the trees are going behind!” Dad smiled and a young 
     couple sitting nearby, looked at the 24 year old’s childish behavior with pity, suddenly he again exclaimed… 
