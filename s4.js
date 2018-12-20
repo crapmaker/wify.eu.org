@@ -1,0 +1,15 @@
+let container = document.getElementById("cnt");
+let content = document.createElement("div");
+content.innerHTML = `<h1 class="has-text-centered">A Dish of Ice Cream</h1>
+<br/>
+<p>A Dish of Ice Cream In the days when an ice cream sundae cost much less, a 10 year old boy entered a hotel coffee shop
+    and sat at a table. A waitress put a glass of water in front of him. “How much is an ice cream sundae?”</p>
+<p>“50 cents,” replied the waitress. The little boy pulled his hand out of his pocket and studied a number of coins in it.
+    “How much is a dish of plain ice cream?” he inquired. Some people were now waiting for a table and the waitress was a
+    bit impatient. “35 cents,” she said brusquely.</p>
+<p>The little boy again counted the coins. “I’ll have the plain ice cream,” he said.
+    The waitress brought the ice cream, put the bill on the table and walked away. The boy finished the ice cream, paid the
+    cashier and departed. When the waitress came back, she began wiping down the table and then swallowed hard at what she
+    saw.</p>
+<p>There, placed neatly beside the empty dish, were 15 cents – her tip.</p>`
+container.appendChild(content); 
