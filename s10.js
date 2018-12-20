@@ -1,8 +1,8 @@
 let container = document.getElementById("cnt");
 let content = document.createElement("div");
-content.innerHTML = `<h1 class="has-text-centered">The Elephant Rope</h1>
+content.innerHTML = `<h1 class="has-text-centered">The Weight of the Glass</h1>
 <br />
-<p>The Weight of the Glass Once upon a time a psychology professor walked around on a stage while teaching stress
+<p>Once upon a time a psychology professor walked around on a stage while teaching stress
     management principles to an auditorium filled with students. As she raised a glass of water, everyone expected they’d
     be asked the typical “glass half empty or glass half full” question.</p>
 <p>Instead, with a smile on her face, the professor
